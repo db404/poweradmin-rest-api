@@ -50,7 +50,8 @@ You can browse the api with swagger_ by opening host name (e.g. http://localhost
 .. _swagger: https://swagger.io/
 
 For authentication use `api-token-auth` call and assign `username` and `password`.
-You will receive a JWT token. Copy this token and click on `Authorize`.
+You will receive a JWT token. Copy this token prepended with 'jwt' e.g. (jwt  eyjO.....)
+and click on `Authorize`.
 
 As `api_key` assign `JWT token` and login. You should now see a `v1` api tree.
 
